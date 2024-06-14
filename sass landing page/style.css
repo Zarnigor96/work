@@ -1,0 +1,170 @@
+.nav {
+  padding-left: 60px;
+  padding-right: 20px;
+  display: flex;
+  height: 30%;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+.nav span {
+  display: flex;
+  gap: 5px;
+  font-size: 10px;
+  align-items: center;
+}
+.nav ul {
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+.nav a {
+  color: #343A40;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+  position: relative;
+}
+.nav button {
+  border: 2px solid #FF7235;
+  color: #FF7235;
+  font-size: 18px;
+  border-radius: 8%;
+  background-color: #FFFFFF;
+}
+
+.card1 {
+  margin-top: 40px;
+  padding-left: 60px;
+  display: flex;
+  gap: 60px;
+}
+.card1 h2 {
+  font-size: 76px;
+  font-weight: 1000;
+}
+.card1 button {
+  border: 2px solid #FF7235;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius: 8%;
+  background-color: #FF7235;
+}
+
+.card2 {
+  width: auto;
+  height: 700px;
+  background-color: #FF7235;
+}
+.card2 img {
+  height: 620px;
+  padding: 90px;
+  padding-bottom: 0;
+  padding-top: 75px;
+}
+
+.brands {
+  width: auto;
+  height: 150px;
+}
+
+.card3 {
+  display: flex;
+  padding-left: 60px;
+  gap: 60px;
+}
+.card3 always {
+  width: 300px;
+  height: 500px;
+}
+.card3 p {
+  font-family: Hind Siliguri;
+  font-weight: 400;
+  font-size: 38px;
+  color: #979a9e;
+}
+.card3 h3 {
+  font-size: 90px;
+}
+.card3 a {
+  font-size: 25px;
+  color: #FF7235;
+  text-decoration: none;
+}
+
+.card4 {
+  display: flex;
+  width: auto;
+  height: 700px;
+  margin-top: 70px;
+  padding-left: 60px;
+  background-color: #ddc5ba;
+}
+.card4 p {
+  font-size: 20px;
+  color: #979a9e;
+}
+.card4 h4 {
+  font-size: 90px;
+}
+.card4 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #FF7235;
+}
+
+.card5 {
+  display: flex;
+  width: auto;
+  height: 500px;
+  margin-top: 100px;
+  padding-left: 60px;
+}
+.card5 h5 {
+  font-size: 76px;
+  font-weight: 1000;
+}
+.card5 p {
+  font-family: Hind Siliguri;
+  font-weight: 400;
+  font-size: 30px;
+  color: #979a9e;
+}
+.card5 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #FF7235;
+}
+
+.card6 {
+  display: flex;
+  height: 700px;
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 20%;
+}
+.card6 .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card6 h6 {
+  font-size: 75px;
+}
+.card6 p {
+  color: #979a9e;
+  width: 45%;
+  font-size: 25px;
+}
+.card6 .three {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.card6 .crd {
+  text-align: center;
+}
+.card6 .crd p {
+  color: #343A40;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

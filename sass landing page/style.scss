@@ -1,0 +1,198 @@
+$primary-color: #FFFFFF;
+$secondary-color: #343A40;
+$background-color: #FF7235;
+$accent-color: #4CAF50;
+
+.nav {
+    padding-left: 60px;
+    padding-right: 20px;
+    display: flex;
+    height: 30%;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+    span {
+        display: flex;
+        gap: 5px;
+        font-size: 10px;
+        align-items: center;
+    }
+
+    ul {
+        margin-top: 30px;
+        color: #FFFFFF;
+
+
+    }
+
+    a {
+        color: $secondary-color;
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: 20px;
+        position: relative;
+
+    }
+
+    button {
+        border: 2px solid $background-color;
+        color: #FF7235;
+        font-size: 18px;
+        border-radius: 8%;
+        background-color: #FFFFFF;
+    }
+}
+
+.card1 {
+    margin-top: 40px;
+    padding-left: 60px;
+    display: flex;
+    gap: 60px;
+
+    h2 {
+        font-size: 76px;
+        font-weight: 1000;
+
+    }
+
+    button {
+        border: 2px solid $background-color;
+        color: $primary-color;
+        font-size: 20px;
+        border-radius: 8%;
+        background-color: $background-color;
+    }
+}
+
+.card2 {
+    width: auto;
+    height: 700px;
+    background-color: $background-color;
+
+    img {
+        height: 620px;
+        padding: 90px;
+        padding-bottom: 0;
+        padding-top: 75px;
+    }
+}
+
+.brands {
+    width: auto;
+    height: 150px;
+}
+
+.card3 {
+    display: flex;
+    padding-left: 60px;
+    gap: 60px;
+
+    always {
+        width: 300px;
+        height: 500px;
+    }
+
+    p {
+        font-family: Hind Siliguri;
+        font-weight: 400;
+        font-size: 38px;
+        color: #979a9e;
+    }
+
+    h3 {
+        font-size: 90px;
+
+    }
+
+    a {
+        font-size: 25px;
+        color: $background-color;
+        text-decoration: none;
+    }
+}
+
+.card4 {
+    display: flex;
+    width: auto;
+    height: 700px;
+    margin-top: 70px;
+    padding-left: 60px;
+    background-color:#ddc5ba;
+
+    p {
+        font-size: 20px;
+        color: #979a9e;
+    }
+
+    h4 {
+        font-size: 90px;
+
+    }
+
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: $background-color;
+    }
+}
+.card5{
+    display: flex;
+    width: auto;
+    height: 500px;
+    margin-top: 100px;
+    padding-left: 60px;
+    h5 {
+        font-size: 76px;
+        font-weight: 1000;
+
+    }
+    p {
+        font-family: Hind Siliguri;
+        font-weight: 400;
+        font-size: 30px;
+        color: #979a9e;
+    }
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: $background-color;
+    }
+
+}
+.card6{
+    display: flex;
+    height: 700px;
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 20%;
+    .text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h6{
+        font-size: 75px;
+    }
+    p{
+        color: #979a9e;
+        width: 45%;
+        font-size: 25px;
+    }
+    .three{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+
+    }
+    .crd {
+        text-align: center;
+
+        p {
+            color: $secondary-color;
+            margin-top: 10px;
+        }
+   
+}
+}
